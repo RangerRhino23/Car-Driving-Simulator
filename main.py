@@ -12,11 +12,6 @@ def update():
 def input(key):
     if key == 'q':
         application.quit()
-    if key == 'g':
-        car.rotation_x -= 10
-    if key == 'f':
-        car.rotation_x += 10
-
 
 ea.build_environment(ground_scale=1500, height=50, walls_invis=False, build_walls=True)
 
